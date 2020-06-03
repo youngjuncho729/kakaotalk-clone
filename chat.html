@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class='chats-body'>
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -41,36 +41,34 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Thurday, May 14, 2020 </span>
         <li class="incoming-message message">
-          <img src="images/avatar.jpg" class="g-avatar message-avatar" />
+          <img src="images/hyunju.jpg" class="g-avatar message-avatar" />
           <div class="message__content">
             <span class="message__author">Hyunju</span>
-            <div class="message__bubble">
-              where are you?
-            </div>
+            <span class="message__bubble">
+              어디서 만나?
+            </span>
           </div>
-          <span class="message__timestamp"></span>
-        </li>
-        <li class="incoming-message message">
+        </li> 
+        <li class="sent-message message">
           <span class="message__timestamp"></span>
           <div class="message__content">
-            <div class="message__bubble">
-              I am home
-            </div>
+            <span class="message__bubble">
+              강남 어때?
+            </span>
           </div>
         </li>
         <li class="incoming-message message">
-          <img src="images/avatar.jpg" class="g-avatar message-avatar" />
+          <img src="images/hyunju.jpg" class="g-avatar message-avatar" />
           <div class="message__content">
             <span class="message__author">Hyunju</span>
-            <div class="message__bubble">
-              Ok!
-            </div>
+            <span class="message__bubble">
+                그래 이따 봐
+            </span>
           </div>
-          <span class="message__timestamp"></span>
         </li>
       </ul>
     </main>
