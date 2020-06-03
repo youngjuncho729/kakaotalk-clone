@@ -1,3 +1,28 @@
+.header-wrapper {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background-color: white;
+  padding: 5px 0px;
+  box-shadow: 0 8px 16px -8px #0000004d, 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.chats-body {
+  padding: 10px 0px;
+  padding-top: 100px;
+
+}
+
+.chats-body .header,
+.chats-body .status-bar {
+  padding: 0px 20px;
+}
+
+.chats-body {
+  background-image: url("../images/y-so-serious-white.png");
+  min-height: 150vh;
+}
+
 .chat__write {
   position: fixed;
   bottom: 30px;
@@ -32,20 +57,6 @@
 
 .chat__write-column input:focus {
   outline: none;
-}
-
-.chat-screen {
-  background-image: url("../images/y-so-serious-white.png");
-  min-height: 100vh;
-}
-
-.chats-body {
-  padding: 0;
-}
-
-.chats-body .header,
-.chats-body .status-bar {
-  padding: 0px 20px;
 }
 
 .chats-body .header {
@@ -100,33 +111,33 @@
 }
 
 .message .message__bubble {
-    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-weight: 600;
-    display: block;
-    width: auto;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  display: block;
+  width: auto;
 }
 
 .incoming-message .message__author {
-    margin-bottom: 10px;
-    display: block;
-    font-weight: 600;
-    font-size: 12px;
-    margin-bottom: 20px;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 20px;
 }
 
 .incoming-message .message__bubble {
-    border-top-left-radius: 0px;
-    background-image: linear-gradient(to right, #FF5F6D, #FFC371);
-    float: left;
-    text-align: left;
+  border-top-left-radius: 0px;
+  background-image: linear-gradient(to right, #ff5f6d, #ffc371);
+  float: left;
+  text-align: left;
 }
 
 .sent-message .message__bubble {
-    border-bottom-right-radius: 0px;
-    background-image: linear-gradient(to left, #00C9FF, #92FE9D);
-    float: right;
-    text-align: right;
+  border-bottom-right-radius: 0px;
+  background-image: linear-gradient(to left, #00c9ff, #92fe9d);
+  float: right;
+  text-align: right;
 }
